@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- viewport for mobile view  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!-- links page to the css -->
+    <link rel="stylesheet" href="css\style.css">
+    <style media="screen">
+      nav{border:black, 7px;}
+    </style>
+<!-- javascript -->
+    <script/>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+      openDropdown.classList.remove('show');}}}}
+    </script>
+  </head>
+  <body>
+
+
+<!-- header below shows the page title -->
+    <header>
+      <h1>  Charlie Hanson Photography </h1>
+    </header>
+
+
+    <!-- menu with dropdown buttons using javascript -->
+    <menu>
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="Ahome.html">home</a>
+          <a href="photos.html">photos</a>
+          <a href="zabout.html">about</a>
+          <a href="z socialmedia.html">social media</a>
+        </div>
+      </div>
+
+    </menu>
+ <h2> Charlie Hanson</h2>
+<img src="image\portrait.png" src="image\portrait2.jpg" alt="portrait">
+ <!-- quote in paragraph -->
+<p class="t">  "Charlie Hanson is a worderfull person, she takes pride in the qaulity of work she produces, shes very picky with what she <br>
+     thinks is her best work. she drives to get better with her skills whenever she can. she loves her photography and will <br>
+     hopefully continue on through out the remainder of her years to continue to produce amazing photos for people to see"    - Lewis Hanson (brother)      </p>
+
+<!-- the line breaker seperates the menu and about page -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<!-- the footer showing pnumber -->
+<footer> p26733669 </footer>
+
+
+
+  </body>
+</html>
