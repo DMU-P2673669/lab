@@ -1,0 +1,61 @@
+
+/* dropdown button */
+.dropbtn {  background-color: rgb(0, 0, 0);  color: rgb(136, 123, 120);  padding: 16px;  font-size: 16px;  border: none;  cursor: pointer;}
+
+/* hover and focus for button */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: rgb(50,50,50);
+}
+
+/* positions container */
+.dropdown { position: relative; display: inline-block;}
+
+
+.dropdown-content { display: none; position: absolute; background-color: rgb(126, 113, 110); min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2) ;z-index: 1; }
+
+/* displays links when dropped down */
+.dropdown-content a {color: black;padding: 12px 16px; text-decoration: none; display: block;}
+
+/* changes the color of dropdown when hovering */
+.dropdown-content a:hover {background-color: rgb(126, 113, 110);}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+/* allows for unique attributes for certain images */
+img.s {height: 200px;}
+img.d {float: right; height: 800px; margin-left: 30px;}
+
+/* allows for unique attributes for certain paragraphs */
+p.r {float: left; font-size: 30px;}
+p.t {font-size: 30px;}
+/* gives the footer padding, background color and text color */
+footer{font-family:  monospace;
+       padding-bottom: 3px;
+       background: black;
+       color: rgb(136, 123, 120);
+       padding-left: 5px ;
+       padding-top: 3px;}
+
+
+/* sets the page color to create color scheme of the website */
+body {background-color: rgb(136, 123, 120);
+      padding: 25px;
+      border-color: black}
+
+/* the padding gives it space from the black background so they aren't touching and makes the title have the same fixed width with monospace */
+h1 {font-family:  monospace;
+   padding-left: 5px ;
+   padding-bottom: 3px;
+   padding-top: 3px;
+   }
+
+/* gives the header a black color, gives it theme of page as colour  */
+header {background: black;
+       color: rgb(136, 123, 120);}
+
+/* makes the images appropriate size and gives it a black padding */
+img {height: 400px;
+    width: auto;
+    padding: 5px;
+    background-color: black;}
